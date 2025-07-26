@@ -1,0 +1,15 @@
+C:\privat\Priv\Dropbox.Core\obj\Debug\net8.0\Dropbox.Core.csproj.AssemblyReference.cache
+C:\privat\Priv\Dropbox.Core\obj\Debug\net8.0\Dropbox.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\privat\Priv\Dropbox.Core\obj\Debug\net8.0\Dropbox.Core.AssemblyInfoInputs.cache
+C:\privat\Priv\Dropbox.Core\obj\Debug\net8.0\Dropbox.Core.AssemblyInfo.cs
+C:\privat\Priv\Dropbox.Core\obj\Debug\net8.0\Dropbox.Core.csproj.CoreCompileInputs.cache
+C:\privat\Priv\Dropbox.Core\bin\Debug\net8.0\Dropbox.Core.deps.json
+C:\privat\Priv\Dropbox.Core\bin\Debug\net8.0\Dropbox.Core.dll
+C:\privat\Priv\Dropbox.Core\bin\Debug\net8.0\Dropbox.Core.pdb
+C:\privat\Priv\Dropbox.Core\bin\Debug\net8.0\Dropbox.Common.dll
+C:\privat\Priv\Dropbox.Core\bin\Debug\net8.0\Dropbox.Common.pdb
+C:\privat\Priv\Dropbox.Core\obj\Debug\net8.0\Dropbox..430B1A6A.Up2Date
+C:\privat\Priv\Dropbox.Core\obj\Debug\net8.0\Dropbox.Core.dll
+C:\privat\Priv\Dropbox.Core\obj\Debug\net8.0\refint\Dropbox.Core.dll
+C:\privat\Priv\Dropbox.Core\obj\Debug\net8.0\Dropbox.Core.pdb
+C:\privat\Priv\Dropbox.Core\obj\Debug\net8.0\ref\Dropbox.Core.dll

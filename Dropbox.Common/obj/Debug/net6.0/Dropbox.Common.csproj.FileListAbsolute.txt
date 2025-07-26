@@ -1,0 +1,12 @@
+/Users/macbookpro/Downloads/Priv 2/Dropbox.Common/bin/Debug/net6.0/Dropbox.Common.deps.json
+/Users/macbookpro/Downloads/Priv 2/Dropbox.Common/bin/Debug/net6.0/Dropbox.Common.dll
+/Users/macbookpro/Downloads/Priv 2/Dropbox.Common/bin/Debug/net6.0/Dropbox.Common.pdb
+/Users/macbookpro/Downloads/Priv 2/Dropbox.Common/obj/Debug/net6.0/Dropbox.Common.csproj.AssemblyReference.cache
+/Users/macbookpro/Downloads/Priv 2/Dropbox.Common/obj/Debug/net6.0/Dropbox.Common.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbookpro/Downloads/Priv 2/Dropbox.Common/obj/Debug/net6.0/Dropbox.Common.AssemblyInfoInputs.cache
+/Users/macbookpro/Downloads/Priv 2/Dropbox.Common/obj/Debug/net6.0/Dropbox.Common.AssemblyInfo.cs
+/Users/macbookpro/Downloads/Priv 2/Dropbox.Common/obj/Debug/net6.0/Dropbox.Common.csproj.CoreCompileInputs.cache
+/Users/macbookpro/Downloads/Priv 2/Dropbox.Common/obj/Debug/net6.0/Dropbox.Common.dll
+/Users/macbookpro/Downloads/Priv 2/Dropbox.Common/obj/Debug/net6.0/refint/Dropbox.Common.dll
+/Users/macbookpro/Downloads/Priv 2/Dropbox.Common/obj/Debug/net6.0/Dropbox.Common.pdb
+/Users/macbookpro/Downloads/Priv 2/Dropbox.Common/obj/Debug/net6.0/ref/Dropbox.Common.dll

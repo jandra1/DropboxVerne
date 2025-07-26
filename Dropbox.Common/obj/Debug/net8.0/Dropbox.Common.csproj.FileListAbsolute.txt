@@ -1,0 +1,11 @@
+C:\privat\Priv\Dropbox.Common\bin\Debug\net8.0\Dropbox.Common.deps.json
+C:\privat\Priv\Dropbox.Common\bin\Debug\net8.0\Dropbox.Common.dll
+C:\privat\Priv\Dropbox.Common\bin\Debug\net8.0\Dropbox.Common.pdb
+C:\privat\Priv\Dropbox.Common\obj\Debug\net8.0\Dropbox.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\privat\Priv\Dropbox.Common\obj\Debug\net8.0\Dropbox.Common.AssemblyInfoInputs.cache
+C:\privat\Priv\Dropbox.Common\obj\Debug\net8.0\Dropbox.Common.AssemblyInfo.cs
+C:\privat\Priv\Dropbox.Common\obj\Debug\net8.0\Dropbox.Common.csproj.CoreCompileInputs.cache
+C:\privat\Priv\Dropbox.Common\obj\Debug\net8.0\Dropbox.Common.dll
+C:\privat\Priv\Dropbox.Common\obj\Debug\net8.0\refint\Dropbox.Common.dll
+C:\privat\Priv\Dropbox.Common\obj\Debug\net8.0\Dropbox.Common.pdb
+C:\privat\Priv\Dropbox.Common\obj\Debug\net8.0\ref\Dropbox.Common.dll

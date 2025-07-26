@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Dropbox</name>
+    </assembly>
+    <members>
+        <member name="M:Dropbox.Controllers.FilesController.CreateFile(Dropbox.Common.DTOs.CreateFileDto)">
+            <summary>
+            Create a new file
+            </summary>
+            <param name="createFileDto">File creation details (if folderId is null or invalid, file will be created in root folder)</param>
+            <returns>Created file information</returns>
+        </member>
+        <member name="M:Dropbox.Controllers.FilesController.GetFileById(System.Guid)">
+            <summary>
+            Get file by ID
+            </summary>
+            <param name="id">File ID</param>
+            <returns>File information</returns>
+        </member>
+        <member name="M:Dropbox.Controllers.FilesController.GetFilesByFolderId(System.Guid)">
+            <summary>
+            Get all files in a specific folder
+            </summary>
+            <param name="folderId">Folder ID</param>
+            <returns>List of files in the folder</returns>
+        </member>
+        <member name="M:Dropbox.Controllers.FilesController.SearchFiles(System.String,System.Nullable{System.Guid})">
+            <summary>
+            Search files by exact name
+            </summary>
+            <param name="name">Exact file name to search for</param>
+            <param name="folderId">Optional folder ID to limit search scope</param>
+            <returns>Search results</returns>
+        </member>
+        <member name="M:Dropbox.Controllers.FilesController.GetFilesStartingWith(System.String,System.Int32)">
+            <summary>
+            Get top 10 files that start with the given search term (for autocomplete)
+            </summary>
+            <param name="searchTerm">Search term to match file names that start with this string</param>
+            <param name="count">Number of results to return (default: 10)</param>
+            <returns>List of matching files</returns>
+        </member>
+        <member name="M:Dropbox.Controllers.FilesController.DeleteFile(System.Guid)">
+            <summary>
+            Delete a file
+            </summary>
+            <param name="id">File ID</param>
+            <returns>Success status</returns>
+        </member>
+        <member name="M:Dropbox.Controllers.FoldersController.CreateFolder(Dropbox.Common.DTOs.CreateFolderDto)">
+            <summary>
+            Create a new folder
+            </summary>
+            <param name="createFolderDto">Folder creation details</param>
+            <returns>Created folder information</returns>
+        </member>
+        <member name="M:Dropbox.Controllers.FoldersController.GetFolderById(System.Guid)">
+            <summary>
+            Get folder by ID including its subfolders and files
+            </summary>
+            <param name="id">Folder ID</param>
+            <returns>Folder information with contents</returns>
+        </member>
+        <member name="M:Dropbox.Controllers.FoldersController.GetRootFolder">
+            <summary>
+            Get the root folder with its contents
+            </summary>
+            <returns>Root folder information</returns>
+        </member>
+        <member name="M:Dropbox.Controllers.FoldersController.GetRootFolders">
+            <summary>
+            Get all root folders
+            </summary>
+            <returns>List of root folders</returns>
+        </member>
+        <member name="M:Dropbox.Controllers.FoldersController.GetFolderTree">
+            <summary>
+            Get complete folder tree structure
+            </summary>
+            <returns>Hierarchical folder tree</returns>
+        </member>
+        <member name="M:Dropbox.Controllers.FoldersController.DeleteFolder(System.Guid)">
+            <summary>
+            Delete a folder (must be empty)
+            </summary>
+            <param name="id">Folder ID</param>
+            <returns>Success status</returns>
+        </member>
+    </members>
+</doc>
