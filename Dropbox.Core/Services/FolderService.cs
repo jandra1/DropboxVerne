@@ -45,7 +45,9 @@ public class FolderService : IFolderService
             .AnyAsync(f => f.Name.Equals(createFolderDto.Name) && f.ParentFolderId.Equals(createFolderDto.ParentFolderId));
         
         if (duplicateExists)
+        {
             throw new InvalidOperationException("A folder with this name already exists in the specified location");
+        }
 
         var folder = new Folder
         {
