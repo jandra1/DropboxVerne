@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Dropbox.Core\Dropbox.Core.csproj" />
+    <ProjectReference Include="..\Dropbox.Common\Dropbox.Common.csproj">
+    </ProjectReference>
   </ItemGroup>
-
 </Project>

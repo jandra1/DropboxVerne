@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
-using Dropbox.Common.DTOs;
+using Dropbox.Common.DTOs.FileDtos;
 using Dropbox.Common.Interfaces;
+using Dropbox.Core.Services;
+using Dropbox.Common.DTOs.FolderDTOs;
 
 namespace Dropbox.Controllers;
 

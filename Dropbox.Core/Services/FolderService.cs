@@ -3,6 +3,8 @@ using Dropbox.Common.DTOs;
 using Dropbox.Common.Interfaces;
 using Dropbox.Common.Models;
 using Dropbox.Core.Data;
+using Dropbox.Common.DTOs.FolderDTOs;
+using Dropbox.Common.DTOs.FileDtos;
 
 namespace Dropbox.Core.Services;
 
@@ -20,8 +22,7 @@ public class FolderService : IFolderService
         // If no parent folder is specified, use the root folder
         if (!createFolderDto.ParentFolderId.HasValue)
         {
-            var rootFolder = await _context.Folders
-                .FirstOrDefaultAsync(f => f.ParentFolderId == null);
+            var rootFolder = await _context.Folders.FirstOrDefaultAsync(f => f.ParentFolderId == null);
             
             if (rootFolder != null)
             {

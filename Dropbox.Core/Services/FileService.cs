@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using Dropbox.Common.DTOs;
 using Dropbox.Common.Interfaces;
 using Dropbox.Core.Data;
+using Dropbox.Common.DTOs.FileDtos;
 
 namespace Dropbox.Core.Services;
 
@@ -19,7 +19,7 @@ public class FileService : IFileService
         var targetFolderId = createFileDto.FolderId;
 
         // If no folder ID is provided or its empty, use the root folder
-        if (!targetFolderId.HasValue || targetFolderId == Guid.Empty)
+        if (Guid.Empty.Equals(targetFolderId))
         {
             var rootFolder = await _context.Folders.FirstOrDefaultAsync(f => f.ParentFolderId == null);
             
@@ -32,7 +32,7 @@ public class FileService : IFileService
         }
         else
         {
-            var folderExists = await _context.Folders.AnyAsync(f => f.Id.Equals(targetFolderId.Value));
+            var folderExists = await _context.Folders.AnyAsync(f => f.Id.Equals(targetFolderId));
             
             // If folder doesn't exist, use the root folder
             if (!folderExists)
@@ -59,7 +59,7 @@ public class FileService : IFileService
         var file = new Common.Models.File
         {
             Name = createFileDto.Name,
-            FolderId = targetFolderId.Value
+            FolderId = targetFolderId
         };
 
         _context.Files.Add(file);

@@ -1,4 +1,4 @@
-using Dropbox.Common.DTOs;
+using Dropbox.Common.DTOs.FolderDTOs;
 
 namespace Dropbox.Common.Interfaces;
 
